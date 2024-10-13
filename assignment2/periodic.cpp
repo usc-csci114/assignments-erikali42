@@ -134,5 +134,5 @@ size_t index_find(const vector<pair<string, int> >& index, const string& key) {
             right = mid - 1;
         }
     }
-    return string::npos; // element not found
+    return -1; // element not found
 }
